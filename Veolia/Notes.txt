@@ -1,0 +1,11 @@
+- Claude sonnet par défaut
+- Innersourcing pour le dev des tools
+- Read only en first step, write avec human-in-the-loop en second step
+- Load balancing (round robing) sur plusieurs clusters/regions pour pallier aux limitations des requêtes imposées par les clouders
+- Platforme multi-cloud (AWS=80% du IaaS/PaaS + GCP=15% + Azure=5%)
+- Facturation gratuite en first step + système de facturation simple par user (3€/mois pour les utilisateurs actifs) depuis 2025
+- Stack technique : langchain + langgraph (qui définit un graph d'exécution avec 1 ou pls itérations)
+- Platforme LLM-agnostique = on peut commencer une conversation avec 1 LLM et switcher sur un autre (le contexte est transmis automatiquement)
+- 5 à 10% des users sont des users avertis (les autres gardent le modèle par défaut proposé). Ces users avertis sont utiles pour le dev des nouvelles features
+- Pour l'instant pas d'intéraction multi-assistant (l'idée est in fine de faire de certains agents des tools appelable par d'autres assistants)
+- Belle adoption du produits (50000 users distincts)
